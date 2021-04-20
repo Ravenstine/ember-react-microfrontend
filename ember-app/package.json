@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "ember build --environment=production",
+    "build:dev": "ember build",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel 'lint:!(fix)'",
     "lint:fix": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*:fix",
     "lint:hbs": "ember-template-lint .",
@@ -49,7 +50,6 @@
     "ember-resolver": "^8.0.2",
     "ember-source": "~3.25.1",
     "ember-template-lint": "^2.18.1",
-    "ember-web-component-container": "^0.1.5",
     "ember-welcome-page": "^4.0.0",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^7.2.0",
